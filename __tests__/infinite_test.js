@@ -3,10 +3,13 @@
 import React from 'react';
 import createReactClass from 'create-react-class';
 import renderer from 'react-test-renderer';
-import { shallow, mount } from 'enzyme';
+import { configure, shallow, mount } from 'enzyme';
 import Infinite from '../src/react-infinite.jsx';
 import { mountToJson } from 'enzyme-to-json';
 import renderHelpers from './helpers/renderHelpers';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({ adapter: new Adapter() });
 
 describe('Rendering the React Infinite Component Wrapper', function() {
   it('does not throw an error when given no children', function() {
@@ -506,7 +509,7 @@ describe("Maintaining React Infinite's internal scroll state", function() {
     });
 
     expect(
-      rootNode.find('.correct-class-name').childAt(0).props().style
+      rootNode.find('.correct-class-name').at(1).childAt(0).props().style
         .pointerEvents
     ).toEqual('none');
   });
@@ -546,7 +549,7 @@ describe('Handling infinite scrolling', function() {
       </Infinite>
     );
 
-    const properDiv = rootNode.find('.correct-class-name').getDOMNode();
+    const properDiv = rootNode.find('.correct-class-name').first().getDOMNode();
     properDiv.scrollTop = 100;
     rootNode.simulate('scroll', {
       target: properDiv

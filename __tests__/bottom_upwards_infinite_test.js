@@ -5,9 +5,11 @@ import ReactDOM from 'react-dom';
 import TestUtils from 'react-dom/test-utils';
 import Infinite from '../src/react-infinite.jsx';
 import renderer from 'react-test-renderer';
-import { mount } from 'enzyme';
+import { configure, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
 import renderHelpers from './helpers/renderHelpers';
+configure({ adapter: new Adapter() });
 
 describe('The Basic Behavior of the Bottom Upwards Display', function() {
   it('does not throw an error when set', function() {

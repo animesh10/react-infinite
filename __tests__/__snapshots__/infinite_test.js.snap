@@ -31,6 +31,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-0"
+        key="0"
         style={
           Object {
             "height": 200,
@@ -39,6 +40,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-1"
+        key="1"
         style={
           Object {
             "height": 200,
@@ -47,6 +49,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-2"
+        key="2"
         style={
           Object {
             "height": 200,
@@ -55,6 +58,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-3"
+        key="3"
         style={
           Object {
             "height": 200,
@@ -63,6 +67,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-4"
+        key="4"
         style={
           Object {
             "height": 200,
@@ -71,6 +76,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-5"
+        key="5"
         style={
           Object {
             "height": 200,
@@ -109,22 +115,37 @@ exports[`React Infinite when the window is used as the Container alters the elem
     style={Object {}}
   >
     <div
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
+      style={Object {}}
     >
       <div
         style={
           Object {
-            "height": 400,
+            "height": 0,
             "width": "100%",
           }
         }
       />
       <div
+        className="test-div-0"
+        key="0"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      />
+      <div
+        className="test-div-1"
+        key="1"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      />
+      <div
         className="test-div-2"
+        key="2"
         style={
           Object {
             "height": 200,
@@ -133,6 +154,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-3"
+        key="3"
         style={
           Object {
             "height": 200,
@@ -141,6 +163,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-4"
+        key="4"
         style={
           Object {
             "height": 200,
@@ -149,54 +172,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       />
       <div
         className="test-div-5"
-        style={
-          Object {
-            "height": 200,
-          }
-        }
-      />
-      <div
-        className="test-div-6"
-        style={
-          Object {
-            "height": 200,
-          }
-        }
-      />
-      <div
-        className="test-div-7"
-        style={
-          Object {
-            "height": 200,
-          }
-        }
-      />
-      <div
-        className="test-div-8"
-        style={
-          Object {
-            "height": 200,
-          }
-        }
-      />
-      <div
-        className="test-div-9"
-        style={
-          Object {
-            "height": 200,
-          }
-        }
-      />
-      <div
-        className="test-div-10"
-        style={
-          Object {
-            "height": 200,
-          }
-        }
-      />
-      <div
-        className="test-div-11"
+        key="5"
         style={
           Object {
             "height": 200,
@@ -206,7 +182,7 @@ exports[`React Infinite when the window is used as the Container alters the elem
       <div
         style={
           Object {
-            "height": 1600,
+            "height": 2800,
             "width": "100%",
           }
         }
@@ -324,6 +300,7 @@ exports[`React Infinite when the window is used as the Container hides DOM eleme
       />
       <div
         className="test-div-0"
+        key="0"
         style={
           Object {
             "height": 200,
@@ -332,6 +309,7 @@ exports[`React Infinite when the window is used as the Container hides DOM eleme
       />
       <div
         className="test-div-1"
+        key="1"
         style={
           Object {
             "height": 200,
@@ -340,6 +318,7 @@ exports[`React Infinite when the window is used as the Container hides DOM eleme
       />
       <div
         className="test-div-2"
+        key="2"
         style={
           Object {
             "height": 200,
@@ -348,6 +327,7 @@ exports[`React Infinite when the window is used as the Container hides DOM eleme
       />
       <div
         className="test-div-3"
+        key="3"
         style={
           Object {
             "height": 200,
@@ -356,6 +336,7 @@ exports[`React Infinite when the window is used as the Container hides DOM eleme
       />
       <div
         className="test-div-4"
+        key="4"
         style={
           Object {
             "height": 200,
@@ -364,6 +345,7 @@ exports[`React Infinite when the window is used as the Container hides DOM eleme
       />
       <div
         className="test-div-5"
+        key="5"
         style={
           Object {
             "height": 200,
@@ -422,6 +404,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-0"
+        key="0"
         style={
           Object {
             "height": 200,
@@ -430,6 +413,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-1"
+        key="1"
         style={
           Object {
             "height": 200,
@@ -438,6 +422,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-2"
+        key="2"
         style={
           Object {
             "height": 200,
@@ -446,6 +431,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-3"
+        key="3"
         style={
           Object {
             "height": 200,
@@ -454,6 +440,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-4"
+        key="4"
         style={
           Object {
             "height": 200,
@@ -462,6 +449,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-5"
+        key="5"
         style={
           Object {
             "height": 200,
@@ -501,38 +489,19 @@ exports[`React Infinite when the window is used as the Container reacts to windo
     style={Object {}}
   >
     <div
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
+      style={Object {}}
     >
       <div
         style={
           Object {
-            "height": 0,
+            "height": 400,
             "width": "100%",
           }
         }
       />
       <div
-        className="test-div-0"
-        style={
-          Object {
-            "height": 200,
-          }
-        }
-      />
-      <div
-        className="test-div-1"
-        style={
-          Object {
-            "height": 200,
-          }
-        }
-      />
-      <div
         className="test-div-2"
+        key="2"
         style={
           Object {
             "height": 200,
@@ -541,6 +510,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-3"
+        key="3"
         style={
           Object {
             "height": 200,
@@ -549,6 +519,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-4"
+        key="4"
         style={
           Object {
             "height": 200,
@@ -557,6 +528,61 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       />
       <div
         className="test-div-5"
+        key="5"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      />
+      <div
+        className="test-div-6"
+        key="6"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      />
+      <div
+        className="test-div-7"
+        key="7"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      />
+      <div
+        className="test-div-8"
+        key="8"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      />
+      <div
+        className="test-div-9"
+        key="9"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      />
+      <div
+        className="test-div-10"
+        key="10"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      />
+      <div
+        className="test-div-11"
+        key="11"
         style={
           Object {
             "height": 200,
@@ -566,7 +592,7 @@ exports[`React Infinite when the window is used as the Container reacts to windo
       <div
         style={
           Object {
-            "height": 2800,
+            "height": 1600,
             "width": "100%",
           }
         }
@@ -715,6 +741,7 @@ exports[`The Behavior of the Variable Height React Infinite Component functions 
       />
       <div
         className="test-div-9"
+        key="9"
         style={
           Object {
             "height": 25,
@@ -723,6 +750,7 @@ exports[`The Behavior of the Variable Height React Infinite Component functions 
       />
       <div
         className="test-div-10"
+        key="10"
         style={
           Object {
             "height": 125,
@@ -731,6 +759,7 @@ exports[`The Behavior of the Variable Height React Infinite Component functions 
       />
       <div
         className="test-div-11"
+        key="11"
         style={
           Object {
             "height": 80,
@@ -739,6 +768,7 @@ exports[`The Behavior of the Variable Height React Infinite Component functions 
       />
       <div
         className="test-div-12"
+        key="12"
         style={
           Object {
             "height": 75,
@@ -747,6 +777,7 @@ exports[`The Behavior of the Variable Height React Infinite Component functions 
       />
       <div
         className="test-div-13"
+        key="13"
         style={
           Object {
             "height": 20,
@@ -755,6 +786,7 @@ exports[`The Behavior of the Variable Height React Infinite Component functions 
       />
       <div
         className="test-div-14"
+        key="14"
         style={
           Object {
             "height": 150,
@@ -763,6 +795,7 @@ exports[`The Behavior of the Variable Height React Infinite Component functions 
       />
       <div
         className="test-div-15"
+        key="15"
         style={
           Object {
             "height": 250,
@@ -771,6 +804,7 @@ exports[`The Behavior of the Variable Height React Infinite Component functions 
       />
       <div
         className="test-div-16"
+        key="16"
         style={
           Object {
             "height": 100,
@@ -977,6 +1011,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-2"
+        key="2"
         style={
           Object {
             "height": 160,
@@ -985,6 +1020,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-3"
+        key="3"
         style={
           Object {
             "height": 100,
@@ -993,6 +1029,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-4"
+        key="4"
         style={
           Object {
             "height": 50,
@@ -1001,6 +1038,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-5"
+        key="5"
         style={
           Object {
             "height": 150,
@@ -1009,6 +1047,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-6"
+        key="6"
         style={
           Object {
             "height": 25,
@@ -1017,6 +1056,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-7"
+        key="7"
         style={
           Object {
             "height": 25,
@@ -1025,6 +1065,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-8"
+        key="8"
         style={
           Object {
             "height": 25,
@@ -1033,6 +1074,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-9"
+        key="9"
         style={
           Object {
             "height": 25,
@@ -1041,6 +1083,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-10"
+        key="10"
         style={
           Object {
             "height": 125,
@@ -1049,6 +1092,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-11"
+        key="11"
         style={
           Object {
             "height": 80,
@@ -1057,6 +1101,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-12"
+        key="12"
         style={
           Object {
             "height": 75,
@@ -1065,6 +1110,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-13"
+        key="13"
         style={
           Object {
             "height": 20,
@@ -1073,6 +1119,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-14"
+        key="14"
         style={
           Object {
             "height": 150,
@@ -1081,6 +1128,7 @@ exports[`The Behavior of the Variable Height React Infinite Component hides visi
       />
       <div
         className="test-div-15"
+        key="15"
         style={
           Object {
             "height": 250,
@@ -1461,6 +1509,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-14"
+        key="14"
         style={
           Object {
             "height": 200,
@@ -1469,6 +1518,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-15"
+        key="15"
         style={
           Object {
             "height": 200,
@@ -1477,6 +1527,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-16"
+        key="16"
         style={
           Object {
             "height": 200,
@@ -1485,6 +1536,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-17"
+        key="17"
         style={
           Object {
             "height": 200,
@@ -1493,6 +1545,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-18"
+        key="18"
         style={
           Object {
             "height": 200,
@@ -1501,6 +1554,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-19"
+        key="19"
         style={
           Object {
             "height": 200,
@@ -1563,6 +1617,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-2"
+        key="2"
         style={
           Object {
             "height": 200,
@@ -1571,6 +1626,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-3"
+        key="3"
         style={
           Object {
             "height": 200,
@@ -1579,6 +1635,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-4"
+        key="4"
         style={
           Object {
             "height": 200,
@@ -1587,6 +1644,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-5"
+        key="5"
         style={
           Object {
             "height": 200,
@@ -1595,6 +1653,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-6"
+        key="6"
         style={
           Object {
             "height": 200,
@@ -1603,6 +1662,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-7"
+        key="7"
         style={
           Object {
             "height": 200,
@@ -1611,6 +1671,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-8"
+        key="8"
         style={
           Object {
             "height": 200,
@@ -1619,6 +1680,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-9"
+        key="9"
         style={
           Object {
             "height": 200,
@@ -1627,6 +1689,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-10"
+        key="10"
         style={
           Object {
             "height": 200,
@@ -1635,6 +1698,7 @@ exports[`The Scrolling Behavior of the Constant Height React Infinite Component 
       />
       <div
         className="test-div-11"
+        key="11"
         style={
           Object {
             "height": 200,
